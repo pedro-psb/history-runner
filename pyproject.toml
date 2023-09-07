@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "history-runner"
+version = "0.1.0"
+description = "Quick run a command across different git tags of package."
+authors = ["pedro-psb <pedropsb95@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hrun"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
