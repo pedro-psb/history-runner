@@ -6,6 +6,9 @@ authors = ["pedro-psb <pedropsb95@gmail.com>"]
 readme = "README.md"
 packages = [{include = "hrun"}]
 
+[tool.poetry.scripts]
+hrun = "hrun.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.11"
 
