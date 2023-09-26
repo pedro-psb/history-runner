@@ -1,4 +1,4 @@
-# Quick-bench
+# history-runner
 
 Quick run a command across different git tags of package.
 
